@@ -12,6 +12,9 @@ st.set_page_config(page_title="Project Assignment", page_icon="🤖")
 st.markdown(r"<style>footer, header button { visibility: hidden }</style>", unsafe_allow_html=True)
 
 st.title("Project Assignment")
+st.header("How does it work?")
+st.write("The way the algorithm works is that it tries to give all group their first choices. If multiple groups choose a project as their first choice, it's going to assign it randomly to a group (or groups). After assigning the first choices, it moves to the second choice and tries to give all groups their second choice. If multiple people have a group as their second choice it assigns it to random group(s). And so on...")
+
 st.header("Instructions")
 st.write("You can get started by uploading an Excel file in the format described below.")
 
